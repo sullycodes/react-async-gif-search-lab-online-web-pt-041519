@@ -20,7 +20,6 @@ export default class GifSearch extends Component {
     handleSubmit(event) {
         event.preventDefault()
         this.props.query(this.state.search)
-        
     }
 
 
